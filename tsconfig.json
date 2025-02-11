@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "types": ["jest"],
+    "jsx": "react-jsx",
+    "module": "CommonJS" /* Assure la compatibilité avec Jest */,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true
+  },
+  "files": [],
+  "references": [
+    { "path": "./tsconfig.app.json" },
+    { "path": "./tsconfig.node.json" }
+  ]
+}
