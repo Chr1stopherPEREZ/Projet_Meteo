@@ -8,6 +8,7 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
+    "start": "vite preview --port 8080",
     "preview": "vite preview",
     "test": "jest",
     "predeploy": "npm run build",
