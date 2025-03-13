@@ -3,10 +3,11 @@ import react from "@vitejs/plugin-react";
 
 export default defineConfig({
   plugins: [react()],
-  base: "/Projet_Meteo/",
+  base: "./", // Assure que les fichiers sont bien chargés sur Zeabur
   root: "./",
   build: {
     outDir: "dist",
+    emptyOutDir: true, // Supprime le contenu existant avant chaque build
     rollupOptions: {
       input: "index.html",
     },
